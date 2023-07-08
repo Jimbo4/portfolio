@@ -1,0 +1,14 @@
+{
+  "editor.detectIndentation": true,
+  "editor.formatOnSave": true,
+  "prettier.tabWidth": 2,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
