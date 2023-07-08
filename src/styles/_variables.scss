@@ -1,1 +1,12 @@
 // scss variables and utilities
+$black: #000000;
+$white: #ffffff;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);

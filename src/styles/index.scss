@@ -1,1 +1,33 @@
 // import bootstrap and customize it
+
+@use "variables" as *;
+
+// Typography
+/* @font-face {
+  font-family: "XXX";
+  src: url(../../public/fonts/XXX.ttf);
+} */
+
+// Bootstrap customization
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Override default variables and mixins
+$body-color: $black; // basic text color
+$spacer: 2rem; // spacing basic unit
+/* $font-family-base: XXX; // font
+$font-family-sans-serif: XXX, system-ui, -apple-system, "Segoe UI", Roboto,
+  "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace: XXX, SFMono-Regular, Menlo, Monaco, Consolas,
+  "Liberation Mono", "Courier New", monospace; */
+
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+// Generate custom colors components
+/* $custom-colors: (
+  "primary-XXX": $primary-XXX,
+);
+$theme-colors: map-merge($theme-colors, $custom-colors); */
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
